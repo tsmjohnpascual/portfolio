@@ -1,16 +1,21 @@
 import "./App.css";
 import "./assets/fonts/IBMPlexSansCondensed-Regular.ttf";
 
-import NavBar from "./components/NavBar/NavBar";
+import HeaderFooter from "./components/HeaderFooter/HeaderFooter";
 import Introduction from "./components/Introduction/Introduction";
 import Skills from "./components/Skills/Skills";
+import Projects from "./components/Projects/Projects";
+import Contact from "./components/Contact/Contact";
 
 function App() {
   return (
     <>
-      <NavBar />
+      <HeaderFooter />
       <Introduction />
       <Skills />
+      <Projects />
+      <Contact />
+      <HeaderFooter />
     </>
   );
 }
