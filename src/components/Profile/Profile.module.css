@@ -1,0 +1,25 @@
+.container {
+  text-align: center;
+}
+
+.title {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: -1.14px;
+}
+
+.introduction {
+  font-size: 16px;
+  line-height: 26px;
+  color: #d9d9d9;
+}
+
+.contactMe {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+  color: white;
+  text-decoration: none;
+  letter-spacing: 2.29px;
+}
