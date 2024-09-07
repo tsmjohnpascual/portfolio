@@ -49,6 +49,11 @@
   line-height: 26px;
   border: none;
   resize: none;
+  color: white;
+}
+
+.input:focus {
+  outline: none;
 }
 
 .textarea {
