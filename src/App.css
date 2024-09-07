@@ -1,9 +1,14 @@
 body {
   margin: 0;
-  padding: 15px;
+  padding-top: 15px;
   color: white;
   background-color: #151515;
   font-family: "Space Grotesk", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
+}
+
+#bot-nav {
+  background-color: #242424;
+  padding-bottom: 15px;
 }
