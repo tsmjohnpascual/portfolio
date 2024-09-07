@@ -6,7 +6,8 @@ const Profile = () => {
     <section id="profile">
       <div className={`${classes.container}`}>
         <h1 className={`${classes.title}`}>
-          Nice to meet you! I'm John Pascual.
+          Nice to meet you! I'm{" "}
+          <span className={`${classes.underline}`}>John Pascual</span>.
         </h1>
         <p className={`${classes.introduction}`}>
           Based in the UK, I'm a full stack developer passionate about building
