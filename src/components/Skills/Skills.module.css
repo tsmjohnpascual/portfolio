@@ -10,10 +10,3 @@
   text-align: center;
   gap: 40px;
 }
-
-.dividerTop,
-.dividerBottom {
-  width: 100%;
-  border: none;
-  border-top: 1px solid white;
-}

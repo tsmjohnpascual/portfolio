@@ -82,9 +82,20 @@ section {
   padding-top: 15px;
 }
 
+#contact {
+  background-color: #242424;
+}
+
 /* Container defaults */
 .container {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+/* HR default */
+hr {
+  width: 100%;
+  border: none;
+  border-top: 1px solid white;
 }
