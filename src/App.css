@@ -32,6 +32,9 @@ body {
 
 /* Set core body defaults */
 body {
+  color: white;
+  background-color: #151515;
+  font-family: "Space Grotesk", sans-serif;
   line-height: 1.5;
 }
 
@@ -41,4 +44,33 @@ picture,
 svg {
   max-width: 100%;
   display: block;
+}
+
+.text-body {
+  font-size: 16px;
+  line-height: 26px;
+  color: #d9d9d9;
+}
+
+.text-heading-xl {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 40px;
+  letter-spacing: -1.14px;
+}
+
+.text-heading-l {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: -1px;
+}
+
+.text-heading-m {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.container {
 }

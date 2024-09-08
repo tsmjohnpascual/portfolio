@@ -6,8 +6,8 @@ const Contact = () => {
     <section id="contact">
       <div className={`${classes.container}`}>
         <div className={`${classes.innerContainer}`}>
-          <h2 className={`${classes.contact}`}>Contact</h2>
-          <p className={`${classes.contactParagraph}`}>
+          <h2 className={`${classes.contact} text-heading-xl`}>Contact</h2>
+          <p className={`${classes.contactParagraph} text-body`}>
             I would love to hear about your project and how I could help. Please
             fill in the form, and I'll get back to you as soon as possible.
           </p>
@@ -41,7 +41,7 @@ const Contact = () => {
                 <hr />
               </div>
               <div className={`${classes.buttonContainer}`}>
-                <button type="submit" className={`${classes.button}`}>
+                <button type="submit" className={`${classes.button} text-body`}>
                   SEND MESSAGE
                   <hr />
                 </button>

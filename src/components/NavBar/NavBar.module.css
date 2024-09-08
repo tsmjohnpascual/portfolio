@@ -4,22 +4,18 @@
   align-items: center;
   gap: 20px;
   padding: 0 15px;
-}
+} */
 
-.name,
-.name:visited {
-  font-size: 24px;
-  line-height: 32px;
-  color: white;
+.name {
   text-decoration: none;
-  font-weight: 700;
+  color: white;
 }
 
 .name:hover {
   color: #4ee1a0;
 }
 
-.icon:hover > svg > path {
+/* .icon:hover > svg > path {
   fill: #4ee1a0;
 }
 

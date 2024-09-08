@@ -41,7 +41,7 @@ const NavBar = ({ sectionId }) => {
       <nav>
         <div className={`${classes.container}`}>
           <div>
-            <a href="#profile" className={`${classes.name}`}>
+            <a href="#profile" className={`${classes.name} text-heading-m`}>
               johnpascual
             </a>
           </div>

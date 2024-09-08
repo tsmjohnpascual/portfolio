@@ -14,12 +14,9 @@
   font-size: 16px;
   line-height: 26px;
   color: #d9d9d9;
-}
+} */
 
 .contactMe {
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 26px;
   color: white;
   text-decoration: none;
   letter-spacing: 2.29px;
@@ -27,6 +24,6 @@
   padding-bottom: 10px;
 }
 
-.underline {
+/* .underline {
   text-decoration: solid underline #4ee1a0 4px;
 } */
