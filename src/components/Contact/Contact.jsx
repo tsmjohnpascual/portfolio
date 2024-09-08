@@ -32,16 +32,15 @@ const Contact = () => {
               />
               <hr />
             </div>
-            <div>
-              <textarea
-                className={`${classes.textarea} text-body`}
-                placeholder="MESSAGE"
-              />
-            </div>
+
+            <textarea
+              className={`${classes.textarea} text-body`}
+              placeholder="MESSAGE"
+            />
+
             <div className={`${classes.buttonContainer}`}>
               <button type="submit" className={`${classes.button} text-body`}>
                 SEND MESSAGE
-                <hr />
               </button>
             </div>
           </div>
