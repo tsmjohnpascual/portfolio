@@ -39,7 +39,7 @@ const NavBar = ({ sectionId }) => {
   return (
     <section id={sectionId}>
       <nav>
-        <div className={`${classes.container}`}>
+        <div className={`${classes.container} container`}>
           <div>
             <a href="#profile" className={`${classes.name} text-heading-m`}>
               johnpascual
