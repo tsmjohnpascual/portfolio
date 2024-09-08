@@ -4,7 +4,7 @@ import classes from "./Profile.module.css";
 const Profile = () => {
   return (
     <section id="profile">
-      <div className={`${classes.container}`}>
+      <div className={`${classes.container} container`}>
         <h1 className={`${classes.title} text-heading-xl`}>
           Nice to meet you! I'm{" "}
           <span className={`${classes.underline}`}>John Pascual</span>.

@@ -11,7 +11,7 @@ const App = () => {
       <NavBar sectionId="top-nav" />
       <Profile />
       <Skills />
-      <Projects />
+      {/* <Projects /> */}
       <Contact />
       <NavBar sectionId="bot-nav" />
     </>
