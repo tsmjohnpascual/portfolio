@@ -1,14 +1,44 @@
-body {
-  margin: 0;
-  padding-top: 15px;
-  color: white;
-  background-color: #151515;
-  font-family: "Space Grotesk", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
-#bot-nav {
-  background-color: #242424;
-  padding-bottom: 15px;
+/* Prevent font size inflation */
+html {
+  -moz-text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+}
+
+/* Remove default margin in favour of better control in authored CSS */
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role="list"],
+ol[role="list"] {
+  list-style: none;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+/* Set core body defaults */
+body {
+  line-height: 1.5;
+}
+
+/* Make images easier to work with */
+img,
+picture,
+svg {
+  max-width: 100%;
+  display: block;
 }
