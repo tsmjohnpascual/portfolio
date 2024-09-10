@@ -1,6 +1,8 @@
 .container {
   text-align: center;
   gap: 24px;
+  padding-top: 40px;
+  padding-bottom: 80px;
 }
 
 .contactMe {

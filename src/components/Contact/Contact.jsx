@@ -46,6 +46,7 @@ const Contact = () => {
           </div>
         </form>
       </div>
+      <hr />
     </section>
   );
 };
