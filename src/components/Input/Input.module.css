@@ -11,3 +11,14 @@
 .input:focus {
   outline: none;
 }
+
+.inputError {
+  border-bottom: 1px solid #ff6f5b;
+}
+
+.errorText {
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: -0.17px;
+  color: #ff6f5b;
+}
