@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "../Button/Button";
 import classes from "./Contact.module.css";
 
 const Contact = () => {
@@ -39,9 +40,7 @@ const Contact = () => {
             />
 
             <div className={`${classes.buttonContainer}`}>
-              <button type="submit" className={`${classes.button} text-body`}>
-                SEND MESSAGE
-              </button>
+              <Button type={"submit"} text={"SEND MESSAGE"} />
             </div>
           </div>
         </form>

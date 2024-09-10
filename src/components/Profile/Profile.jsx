@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "../Button/Button";
 import classes from "./Profile.module.css";
 
 const Profile = () => {
@@ -13,8 +14,8 @@ const Profile = () => {
           Based in the UK, I'm a full stack developer passionate about building
           accessible web apps that users love.
         </p>
-        <a href="#contact" className={`${classes.contactMe} text-body`}>
-          CONTACT ME
+        <a href="#contact" className={"text-body"}>
+          <Button text={"CONTACT ME"} />
         </a>
       </div>
     </section>
