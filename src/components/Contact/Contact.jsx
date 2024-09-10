@@ -1,5 +1,6 @@
 import React from "react";
 import Button from "../Button/Button";
+import Input from "../Input/Input";
 import classes from "./Contact.module.css";
 
 const Contact = () => {
@@ -16,29 +17,15 @@ const Contact = () => {
         <form action="post">
           <div className={`${classes.formContainer} container`}>
             <div>
-              <input
-                type="text"
-                className={`${classes.input} text-body`}
-                placeholder="NAME"
-              />
-              <hr />
+              <Input type="text" placeholder="NAME" />
             </div>
             <div>
-              <input
-                type="email"
-                name=""
-                id=""
-                className={`${classes.input} text-body`}
-                placeholder="EMAIL"
-              />
-              <hr />
+              <Input type="email" placeholder="EMAIL" />
             </div>
-
             <textarea
               className={`${classes.textarea} text-body`}
               placeholder="MESSAGE"
             />
-
             <div className={`${classes.buttonContainer}`}>
               <Button type={"submit"} text={"SEND MESSAGE"} />
             </div>
